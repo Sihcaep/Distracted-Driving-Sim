@@ -14572,7 +14572,7 @@ PrefabInstance:
     - target: {fileID: 2736725691770413286, guid: d958382a0f0100c41828f087b0bb64d7,
         type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 0
+      value: 420
       objectReference: {fileID: 0}
     - target: {fileID: 2736725691770413286, guid: d958382a0f0100c41828f087b0bb64d7,
         type: 3}
@@ -14692,7 +14692,7 @@ PrefabInstance:
     - target: {fileID: 5559755997102820228, guid: d958382a0f0100c41828f087b0bb64d7,
         type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 0
+      value: 420
       objectReference: {fileID: 0}
     - target: {fileID: 5559755997102820228, guid: d958382a0f0100c41828f087b0bb64d7,
         type: 3}
@@ -14722,7 +14722,7 @@ PrefabInstance:
     - target: {fileID: 6570750418155592091, guid: d958382a0f0100c41828f087b0bb64d7,
         type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 0
+      value: 420
       objectReference: {fileID: 0}
     - target: {fileID: 6570750418155592091, guid: d958382a0f0100c41828f087b0bb64d7,
         type: 3}
@@ -14742,7 +14742,7 @@ PrefabInstance:
     - target: {fileID: 9201846915408205124, guid: d958382a0f0100c41828f087b0bb64d7,
         type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 0
+      value: 420
       objectReference: {fileID: 0}
     - target: {fileID: 9201846915408205124, guid: d958382a0f0100c41828f087b0bb64d7,
         type: 3}
