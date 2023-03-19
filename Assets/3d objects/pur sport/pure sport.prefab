@@ -1043,9 +1043,8 @@ GameObject:
   - component: {fileID: 3138812770127392676}
   - component: {fileID: 7665303064166344734}
   - component: {fileID: 6092290275529059194}
-  - component: {fileID: 3129005537406131510}
-  - component: {fileID: 2946976142465299993}
-  - component: {fileID: 4823544425675055240}
+  - component: {fileID: 8562546233104695557}
+  - component: {fileID: -6050813262471237447}
   m_Layer: 0
   m_Name: pure sport
   m_TagString: Player
@@ -1191,7 +1190,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1908611215415207363}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2b99087c53df3f24d838859ff887d957, type: 3}
   m_Name: 
@@ -1226,86 +1225,30 @@ MonoBehaviour:
   handlingUpgrade: 0
   I_handlingUpgrade: 0
   P_handlingUpgrade: 000000007b000000f3e00100f3e00100
---- !u!114 &3129005537406131510
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1908611215415207363}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15e709178596d8c489a6c168283836fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  brakeLights: {fileID: 2100000, guid: 25815fe60142a2d479ec4123671fcb07, type: 2}
-  skidClip: {fileID: 3136624902066826794, guid: 7a1c876f724c2c74babf5b7174c678a9,
-    type: 3}
-  tireMarks:
-  - {fileID: 7375344365991941368, guid: 7a1c876f724c2c74babf5b7174c678a9, type: 3}
-  - {fileID: 6573850356923191718, guid: 7a1c876f724c2c74babf5b7174c678a9, type: 3}
-  - {fileID: 6336696491319946992, guid: 7a1c876f724c2c74babf5b7174c678a9, type: 3}
-  - {fileID: 3872631383070365897, guid: 7a1c876f724c2c74babf5b7174c678a9, type: 3}
-  smoke:
-  - {fileID: 2036571357459911147, guid: 7a1c876f724c2c74babf5b7174c678a9, type: 3}
-  - {fileID: 739888804036510708, guid: 7a1c876f724c2c74babf5b7174c678a9, type: 3}
-  - {fileID: 7103981913641248918, guid: 7a1c876f724c2c74babf5b7174c678a9, type: 3}
-  - {fileID: 4098033120792927540, guid: 7a1c876f724c2c74babf5b7174c678a9, type: 3}
-  nitrusSmoke:
-  - {fileID: 2214770923362126527, guid: 7a1c876f724c2c74babf5b7174c678a9, type: 3}
-  - {fileID: 2214770923450061738, guid: 7a1c876f724c2c74babf5b7174c678a9, type: 3}
---- !u!114 &2946976142465299993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1908611215415207363}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8506b170d97c4b747ab52f9cc756a65b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  engineSoundStyle: 1
-  lowAccelClip: {fileID: 8300000, guid: 606da4ef604a81d448efaa5a4ecca8ed, type: 3}
-  lowDecelClip: {fileID: 8300000, guid: 606da4ef604a81d448efaa5a4ecca8ed, type: 3}
-  highAccelClip: {fileID: 8300000, guid: aed239ee9db48f94f9192aa78c703628, type: 3}
-  highDecelClip: {fileID: 8300000, guid: 106ac979132be194a8a531ad68082f1c, type: 3}
-  pitchMultiplier: 0.6
-  lowPitchMin: 1
-  lowPitchMax: 7
-  highPitchMultiplier: 0.25
-  maxRolloffDistance: 500
-  dopplerLevel: 1.51
-  useDoppler: 1
-  m_CarController: {fileID: 2610125035370890678, guid: 7a1c876f724c2c74babf5b7174c678a9,
-    type: 3}
-  InputManager: {fileID: 2610125035370890676, guid: 7a1c876f724c2c74babf5b7174c678a9,
-    type: 3}
---- !u!82 &4823544425675055240
+--- !u!82 &8562546233104695557
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1908611215415207363}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: bd9566abdbf08834281bfb4ea8b92a5d, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 0.2
+  m_audioClip: {fileID: 8300000, guid: b049660b860c8334a852b54855bce599, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
-  DopplerLevel: 0
+  DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 1
+  rolloffMode: 0
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -1338,7 +1281,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -1378,6 +1321,32 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-6050813262471237447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908611215415207363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8506b170d97c4b747ab52f9cc756a65b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  engineSoundStyle: 1
+  lowAccelClip: {fileID: 8300000, guid: b049660b860c8334a852b54855bce599, type: 3}
+  lowDecelClip: {fileID: 8300000, guid: c0191f5eddde47443a5bfd777e6d37b6, type: 3}
+  highAccelClip: {fileID: 8300000, guid: 2b9be05b0a886f147b9ac9a64d6a22fe, type: 3}
+  highDecelClip: {fileID: 8300000, guid: 1a39652b55ef6dc4c894ece2783c58c7, type: 3}
+  pitchMultiplier: 1
+  lowPitchMin: 1
+  lowPitchMax: 6
+  highPitchMultiplier: 0.25
+  maxRolloffDistance: 500
+  dopplerLevel: 1
+  useDoppler: 1
+  m_CarController: {fileID: 7665303064166344734}
+  InputManager: {fileID: 3138812770127392676}
 --- !u!1 &2095064849635473581
 GameObject:
   m_ObjectHideFlags: 0
