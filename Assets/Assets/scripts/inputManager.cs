@@ -15,9 +15,9 @@ public class inputManager : MonoBehaviour {
     private Transform currentWaypoint;
     private List<Transform> nodes = new List<Transform> ();
     private int distanceOffset = 5;
-    private float sterrForce = 1;
+    private float sterrForce = 5;
     [Header("AI acceleration value")]
-    [Range(0,1)]public float acceleration = 0.5f;
+    [Range(0,2)]public float acceleration = 1.99f;
     public int currentNode;
 
 
